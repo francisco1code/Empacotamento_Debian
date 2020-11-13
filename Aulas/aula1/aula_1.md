@@ -17,3 +17,13 @@
 * Pacotes .deb são arquivos compactado com "ar".
 * Contém a estrutura instalada de um software, pronto para uso e alguns arquivos de controle. 
 
+* É possivel obter o codigo-fonte de qualquer pacote.
+
+* Usa-se o comando "apt-get source" para isso.
+* Alternativamente, pode-se ultilizar o comando "dget -u"
+
+## Conceito de patch e quilt
+
+* Patchess são arquivos que mostram diferença entre dois outros arquivos ou diretorios
+
+* O Codigo-fonte do autor do programa (upstream) d
