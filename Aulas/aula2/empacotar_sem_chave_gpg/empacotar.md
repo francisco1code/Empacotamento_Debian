@@ -1,4 +1,4 @@
-#### Apresentação Kanashiro
+#### Empacotar usando o sbuild
 
 1. `sudo apt install sbuild schroot debootstrap debhelper devscripts -y`
 
