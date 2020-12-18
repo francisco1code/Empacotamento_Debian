@@ -1,7 +1,10 @@
 FROM debian:sid
 
 ADD . /bin
-RUN chmod + /bin/setup.sh
+
+RUN chmod +x /bin/setup.bash
+
+RUN /bin/setup.bash
 
 WORKDIR /pkg
 
